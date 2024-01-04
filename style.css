@@ -4,24 +4,24 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.about-matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.about-matrix img {
     width: 100%;
 }
-.aaa .more_inf {
+.about-matrix__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.about-matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.to-do-container {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.add-item__form {
     display: flex;
 }
 ul {
