@@ -3,10 +3,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 
@@ -117,7 +119,7 @@ input,button{
   font-size: 18px;
   width: 226px;
 }
-.task-container >    input[type="text"] {
+.task-container > input[type="text"] {
   width: 226px;
 }
 .delete__img {
